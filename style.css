@@ -1,0 +1,131 @@
+body {
+    background-color:  rgb(123, 196, 196);
+    color: white;
+    font-family: Roboto;
+}
+
+body h1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+  #container {
+    height: 420px;
+    width: 360px;
+    margin: 100px auto;
+    background: rgb(101, 102, 101);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    background: rgb(216, 127, 149);
+    color: rgb(155, 82, 82);
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  p {
+   
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form input[type="text"] {
+    width: 90px;
+  }
+  
+  input {
+    text-align: center;
+    color: yellow;
+  }
+  
+  #billamt {
+    font-size: 14px;
+    color: rgb(3, 3, 121);
+    background-color: #ffffff;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #billamt:focus {
+    background: rgb(240, 247, 241);
+    border: 3px solid #2980b9;
+    outline: none;
+  }
+  
+  #peopleamt {
+    font-size: 14px;
+    color: rgb(3, 3, 121);
+    background-color: #ffffff;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    
+  }
+  
+  
+  #taxServ {
+    font-size: 14px;
+    color: rgb(3, 3, 121);
+    background-color: #ffffff;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: rgb(216, 127, 149);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: rgb(97, 11, 11);
+  }
+  
+  button:hover {
+    background: rgb(97, 11, 11);
+    color: rgb(216, 127, 149);
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px
+  }
+  
+  #totalTip:before {
+    content: "You have to pay";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLIT BILL CALCULATOR</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>SPLIT BILL CALCULATOR</h1>
+        <div id="calculator">
+
+
+            <form>
+                <p> How much was your bill? </p>
+                <p> Rp <input id="billamt" type="text" placeholder="Bill Amount"> </p>
+
+                <p> How much was your tax and service? </p>
+                <p> Rp <input id="taxServ" type="text" placeholder="Tax & Service"> </p>
+
+                <p> How many people are sharing the bill?</p>
+                <p> <input id="peopleamt" type="text" placeholder="Number of People"> </p>
+
+                <button type="button" id="calculate">Calculate!</button>
+            </form>
+        </div>
+
+        <div id="totalTip">
+            Rp<span id="tip">0.00</span>
+            <small id="each">EACH</small>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="engine.js"></script>
+</body>
+
+</html>
